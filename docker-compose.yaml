@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  sls-sample:
+    build: ./Docker.dev
+    tty: true
+    stdin_open: true
+    volumes:
+    - .:/app/

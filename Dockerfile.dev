@@ -1,0 +1,5 @@
+FROM node:14-slim
+
+RUN npm install -g serverless@3.24.1
+
+WORKDIR /app
